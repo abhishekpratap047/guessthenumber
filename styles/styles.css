@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    font-family: Raleway;
+    font-weight: bold;
+}
+
+#heading{
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    color: rgb(226, 226, 226);
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+
+#description{
+    font-weight: bold;
+    margin: 0px;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(73, 73, 73);
+}
+body{
+    margin: 0 auto;
+    text-align: center;
+}
+#maincontainer{
+    background-color: rgb(243, 243, 243);
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#resetwrapper{
+    background-color: rgb(255, 255, 255);
+    padding: 30px 4% 30px 4%;
+}
+
+#reset{
+    background-color: rgb(255, 208, 208);
+    text-align: center;
+    padding: 20px 4% 20px 4%;
+    border: solid 3px rgb(0, 0, 0);
+    min-width: 150px;
+    border-radius: 40px;
+    transition: background-color 0.25s,border-radius 0.25s;
+}
+#result{
+    padding: 20px 4% 20px 4%;
+    max-width: 300px;
+    margin: 20px auto;
+    border: solid 3px black;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(170, 236, 253);
+    border-radius: 40px;
+}
+#userinput{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    width: 90px;
+    padding: 14px 24px 14px 24px;
+    border: solid 3px black;
+    text-align: center;
+    border-radius: 40px;
+
+}
+#submit{
+    background-color: rgb(209, 255, 209);
+    padding: 14px 24px 14px 24px;
+    text-align: center;
+    border: solid 3px black;
+    border-radius: 40px;
+    transition: background-color 0.25s, border-radius 0.25s;
+
+}
+#submit:hover{
+    background-color: rgb(125, 231, 125);
+    border-radius: 20px;
+}
+html{
+    background-color: rgb(235, 235, 235);
+}
+
+#reset:hover{
+    background-color: rgb(255, 105, 105);
+    border-radius: 20px;
+}
+
+#history{
+    margin-top: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#history>p{
+    display: inline-block;
+    padding: 7px;
+    margin: 4px;
+    border-radius: 50px;
+    background-color: white;
+}
